@@ -8,3 +8,10 @@
 body {
   background-color: #121212;
 }
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-yellowgreen: #d7fa00;
+  --color-ligray: rgb(160, 160, 160);
+}
